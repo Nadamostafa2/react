@@ -30,7 +30,7 @@ function App() {
           path: "users",element:<UsersModule/> , errorElement:<Error></Error>,
           children:[
             {index:true ,element:<UsersPage></UsersPage> 
-              // ,loader:fetcher
+              ,loader:fetcher
             },
             {path:"add" ,element:<AddUsers></AddUsers>},
             {

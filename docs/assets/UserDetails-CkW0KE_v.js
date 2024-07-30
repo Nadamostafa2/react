@@ -1,0 +1,1 @@
+import{y as u,r as s,n as i,j as e}from"./index-CcV0cHIe.js";const x=()=>{const{userId:r}=u(),{usersArr:n}=s.useContext(i),[t,a]=s.useState();return s.useEffect(()=>{a(n.find(o=>o.id===+r))},[]),e.jsxs("div",{children:[e.jsxs("h1",{children:["UserDetails of ",r]}),t&&e.jsx("h1",{children:t.name})]})};export{x as default};

@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const usersAction=createAsyncThunk("users/getAllusers",
     async()=>{
-       const res= await axios.get("http://localhost:1000/users")
+       const res= await axios.get("https://jsonplaceholder.typicode.com/users")
        return res.data
     }
 )
